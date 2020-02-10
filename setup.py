@@ -24,9 +24,11 @@ setup(
         'Framework :: Django',
         'Framework :: Django :: 1.8',
         'Framework :: Django :: 1.9',
+        'Framework :: Django :: 3.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.5',
     ],
+    install_requires=['six'],
 )
